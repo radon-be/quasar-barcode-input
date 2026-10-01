@@ -12,16 +12,5 @@
     "dist/": true,
     ".quasar/": true,
     "/quasar.config.js.temporary.*": true
-  },
-
-  "js/ts.preferences.importModuleSpecifier": "non-relative",
-  "js/ts.preferences.preferTypeOnlyAutoImports": true,
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.expand": false,
-  "explorer.fileNesting.patterns": {
-    ".env": ".env.*, .env.local, .env.*.local"
-  },
-  "chat.tools.terminal.autoApprove": {
-    "npx eslint": true
   }
 }

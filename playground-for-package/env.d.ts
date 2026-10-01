@@ -13,18 +13,3 @@
  * }
  */
 interface ImportMetaEnv {}
-
-declare module "*.vue" {
-  import type { DefineComponent } from "vue";
-
-  const component: DefineComponent;
-  export default component;
-}
-
-declare module "quasar/wrappers" {
-  import type { App } from "vue";
-
-  export function boot<T>(
-    callback: (context: { app: App }) => T,
-  ): (context: { app: App }) => T;
-}

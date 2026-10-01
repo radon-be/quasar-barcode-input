@@ -211,7 +211,7 @@ export default defineConfig((/* ctx */) => {
       builder: {
         // https://www.electron.build/configuration
 
-        appId: "@radon-be/quasar-app-extension-barcode-input"
+        appId: "playground-for-package"
       }
     },
 
