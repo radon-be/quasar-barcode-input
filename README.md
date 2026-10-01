@@ -15,7 +15,7 @@ Requires Vue 3, Quasar 2, and Node.js 22.12 or newer.
 For Quasar CLI projects, install the extension to register `BarcodeSearchInput` globally:
 
 ```bash
-quasar ext add @radon-be/quasar-app-extension-barcode-input
+quasar ext add @radon-be/barcode-input
 ```
 
 The extension globally registers `BarcodeSearchInput` in Quasar CLI projects. The component and composable remain available as named imports.
